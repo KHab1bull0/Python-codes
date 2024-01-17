@@ -25,10 +25,11 @@ class Cars:
         erke = (erke / sum) * 100
         ayol = (ayol / sum) * 100
         if erke > ayol:
-            print("Erkaklar ayollarga nisbatan {0} % ko'p".format(erke))
+            print("Erkaklar ayollarga nisbatan {:.2f} % ko'proq.".format(erke))
+        elif erke < ayol:
+            print("Ayollar erkaklarga nisbatan {:.2f} % ko'proq.".format(ayol))
         else:
-            print(f"Ayollar erkaklarga nisbatan {ayol} % ko'p")
-
+            print("Ikkisi ham teng.")
 
 lis = []
 # n = int(input("Input: "))
