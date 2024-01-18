@@ -31,6 +31,16 @@ class Cars:
         else:
             print("Ikkisi ham teng.")
 
+
+    def metod2(self):
+        pass
+
+
+    def metod2(self):
+        pass
+
+# main
+
 lis = []
 # n = int(input("Input: "))
 # for i in range(n):
@@ -47,5 +57,6 @@ odam = Cars(1234, "asdf", 'asdfga', 'Erkak', 'asdfga', 1234, 'asdgfa','asdga')
 lis.append(odam)
 odam = Cars(1234, "asdf", 'asdfga', 'Erkak', 'asdfga', 1234, 'asdgfa','asdga')
 lis.append(odam)
+
 
 odam.metod1(lis)
